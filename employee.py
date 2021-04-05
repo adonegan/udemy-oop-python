@@ -1,9 +1,10 @@
 class Employee:
     # abstract base class - no need to import 
-    def __init__(self, first_name, last_name, salary):
+    def __init__(self, first_name, last_name, salary, shift):
         self._first_name = first_name
         self._last_name = last_name
         self.salary = salary
+        self.shift = shift
 
     def get_full_name(self):
         return f"{self._first_name} {self._last_name}"
