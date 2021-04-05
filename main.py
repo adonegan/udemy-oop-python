@@ -13,8 +13,20 @@ employees = [
     Mechanic("Tina", 2300)
 ]
 
-for e in employees:
-    print(f"{e.name}, ${e.salary}, {e.job_title}")
+def print_accounting_report():
+    print("Accounting")
+    print("==========")
+    for e in employees:
+        print(f"{e.name}, ${e.salary}")
 
-# REFACTORING
-# This means breaking up code into smaller, easier to understand parts / as your code grows, you detect patterns and can break it up to make it easier to understand
+def print_staffing_report():
+    print("Staffing")
+    print("========")
+    for e in employees:
+        print(f"{e.name}, {e.job_title}")
+
+# call function
+print_accounting_report()
+print()
+print_staffing_report()
+
