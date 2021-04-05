@@ -26,4 +26,5 @@ for r in reports:
     print()
 
 # Using polymorphism to print all reports
-# A good way to prevent if/else blocks that lead to fragile code 
+# A good way to prevent if/else blocks that lead to fragile code
+# Note: different subclasses cause different behaviour
