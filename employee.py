@@ -5,6 +5,9 @@ class Employee:
         self.last_name = last_name
         self.salary = salary
 
+    def get_full_name(self):
+        return f"{self.first_name} {self.last_name}"
+
 class Mechanic(Employee):
     # class variable
     # use underscore
