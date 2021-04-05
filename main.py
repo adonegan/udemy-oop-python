@@ -1,24 +1,7 @@
-# Code with subclasses
-# Using inheritance to prevent duplicate code
-
-class Employee:
-    def __init__(self, name, salary):
-        self.name = name
-        self.salary = salary
-
-class Mechanic(Employee):
-    # class variable
-    # use underscore
-    job_title = "Mechanic"
-
-class Cook(Employee):
-    job_title = "Cook"
-
-class Attendant(Employee):
-    job_title = "Station Attendant"
-
-class Manager(Employee):
-    job_title = "Manager"
+from employee import Manager
+from employee import Attendant
+from employee import Cook
+from employee import Mechanic
 
 employees = [
     Manager("Vera", 2000),
@@ -33,4 +16,5 @@ employees = [
 for e in employees:
     print(f"{e.name}, ${e.salary}, {e.job_title}")
 
-# no need to write the dunder method in sub / child classes, because they inherit it from super / parent class
+# REFACTORING
+# This means breaking up code into smaller, easier to understand parts / as your code grows, you detect patterns and can break it up to make it easier to understand
