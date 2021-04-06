@@ -1,5 +1,8 @@
 # Udemy's Object Oriented Programming
 
+**Instructor:** Loek van den Ouweland
+<https://www.pythonforeveryone.com/en/>
+
 Notes and practice from the class. Best to check commit history to see how this code has changed as the course I'm doing has progressed. For example, this is how it started and what's changed:
 
 1. Bad code: Two lists + a for loop
