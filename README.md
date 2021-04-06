@@ -15,6 +15,7 @@ Notes and practice from the class. Best to check commit history to see how this 
 8. Create superclass to contain emp_list
 9. Use polymorphism to print all reports
 10. Use association / composition to prevent inheritence explosion
+11. Finish the course with some unit tests
 
 Course link: <https://www.udemy.com/course/learn-object-oriented-programming-with-python>
 
